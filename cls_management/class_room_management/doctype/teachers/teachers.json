@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-08 18:59:44.417078",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "teacher_details_section",
+  "name1",
+  "email",
+  "age",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "teacher_details_section",
+   "fieldtype": "Section Break",
+   "label": "Teacher Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-08 19:01:28.218660",
+ "modified_by": "Administrator",
+ "module": "Class Room Management",
+ "name": "Teachers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
